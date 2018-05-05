@@ -48,7 +48,7 @@ class PortfoliosController < ApplicationController
   end
 
   def show
-    @portfoli
+    @portfolio_item = Portfolio.find(params[:id])
   end
 
   def destroy
