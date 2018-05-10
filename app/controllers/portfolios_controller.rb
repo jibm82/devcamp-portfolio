@@ -14,7 +14,6 @@ class PortfoliosController < ApplicationController
 
   def create
     @portfolio_item = Portfolio.new(portfolio_params)
-    )
 
     respond_to do |format|
       if @portfolio_item.save
