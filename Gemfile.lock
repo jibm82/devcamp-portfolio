@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/jibm82/jbaez_view_tool
-  revision: b33a795d6ef45c959518a1f7793f847a49632110
-  specs:
-    jbaez_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -80,6 +74,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
+    jbaez_view_tool (0.1.1)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -199,7 +194,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.4, >= 4.4.3)
   friendly_id (~> 5.1.0)
-  jbaez_view_tool!
+  jbaez_view_tool (~> 0.1.1)
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
